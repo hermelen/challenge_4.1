@@ -24,20 +24,51 @@ header ul {
 header ul li {
   font-size: 0.6em;
   padding: 0.5em;
+  padding: 2em 1em 2em 1em;
+  border-radius: 5px 5px 0 0;
 }
-header ul li a {
+header ul li a{
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
 }
+header ul li:hover a{
 
+    color: #2056ac;
+}
+header ul li:hover {
+    border-radius: 5px 5px 0 0;
+    background-color: #fff;
+}
 header, footer {
   background-color: #2056ac;
 }
-
-
-
-
-
+header nav{
+    padding-top: 2em;
+}
+header nav ul{
+    display: flex;
+     justify-content: center;
+}
+section.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12vh;
+    padding-top: 4em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4em 2em;
+}
+img{
+    width: 100%;
+    height: auto;
+}
 
 
 
