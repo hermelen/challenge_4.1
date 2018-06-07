@@ -1,6 +1,16 @@
 body {
   font-family: 'Questrial';
 }
+p {
+  line-height: 1.7em;
+}
+hr{
+  height: 2px;
+  background-color: #e8e8e8;
+  border: none;
+  display: block;
+  width: 100%;
+}
 header {
   color: white;
 }
@@ -35,7 +45,6 @@ header ul li a{
   font-weight: bold;
 }
 header ul li:hover a{
-
     color: #2056ac;
 }
 header ul li:hover {
@@ -57,7 +66,7 @@ section.banner{
     flex-direction: column;
     justify-content: space-between;
     height: 12vh;
-    padding-top: 4em;
+    padding-top: 2em;
 }
 main{
     display: flex;
@@ -71,6 +80,18 @@ img{
 }
 section.centre {
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+.centre h2{
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Questrial';
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.centre{
+  padding: 3vw 7vw 3vw 7vw;
+
 }
 
 section.articles_principaux {
@@ -79,18 +100,49 @@ section.articles_principaux {
 section.articles_principaux, section.articles_secondaires{
     display: flex;
     flex-direction: column;
+    color: rgba(0, 0, 0, 0.7);
 }
 section.articles_principaux article{
+  text-align: center;
   width: 100%;
 }
+section.articles_principaux article h3{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1.5em;
+}
 
+section.articles_principaux article a{
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: #64abd1;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 2em;
+}
 
 section.articles_secondaires {
   justify-content: space-around;
 }
 
 section.articles_secondaires article{
+  text-align: center;
   width: 100%;
+}
+
+section.articles_secondaires article h4{
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 1.5em;
+}
+
+section.articles_secondaires article a{
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: #64abd1;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 2em;
 }
 
 section.nav_bas {
@@ -112,7 +164,7 @@ section.nav_bas li{
 section.nav_bas li i{
   font-size: 3em;
   color: gray;
-  margin-bottom: 1em;
+  padding: 1em;
 }
 
 footer {
@@ -122,6 +174,7 @@ footer {
 }
 
 footer nav ul {
+  padding: 1em 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -140,15 +193,4 @@ footer nav ul li a i{
 
 footer nav ul li a i:visited {
   color: #fff;
-}
-.centre h2{
-    font-weight: bold;
-    font-size: 2em;
-    font-family: 'Questrial';
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-.centre{
-    padding: 3vw 7vw 3vw 7vw;
-
 }
