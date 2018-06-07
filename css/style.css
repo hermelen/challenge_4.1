@@ -30,12 +30,17 @@ header h1 {
 }
 header ul {
   display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+
 }
 header ul li {
   font-size: 0.6em;
   padding: 0.5em;
   padding: 2em 1em 2em 1em;
   border-radius: 5px 5px 0 0;
+  width: 100%;
+
 }
 header ul li a{
   color: white;
@@ -193,4 +198,14 @@ footer nav ul li a i{
 
 footer nav ul li a i:visited {
   color: #fff;
+}
+@media screen and(min-width: 700px) {
+    header ul{
+        flex-direction: row;
+    }
+
+    header ul li{
+        font-size: 10px;
+    }
+
 }
