@@ -1,211 +1,241 @@
 body {
-  font-family: 'Questrial';
+    font-family: 'Questrial';
 }
+
 p {
-  line-height: 1.7em;
+    line-height: 1.7em;
 }
-hr{
-  height: 2px;
-  background-color: #e8e8e8;
-  border: none;
-  display: block;
-  width: 100%;
+
+hr {
+    height: 2px;
+    background-color: #e8e8e8;
+    border: none;
+    display: block;
+    width: 100%;
 }
+
 header {
-  color: white;
+    color: white;
 }
-section.banner{
-  display: flex;
-  flex-direction: column;
+
+section.banner {
+    display: flex;
+    flex-direction: column;
 }
+
 header i {
-  display: block;
-  text-align: center;
-  font-size: 3em;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
 }
+
 header h1 {
-  text-align: center;
-  font-size: 3em;
-  font-weight: bold;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
 }
+
 header ul {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2em;
-
+    flex-direction: column;
+    margin-top: 2em;
 }
+
 header ul li {
-  font-size: 0.6em;
-  padding: 0.5em;
-  padding: 2em 1em 2em 1em;
-  border-radius: 5px 5px 0 0;
-  width: 100%;
+    font-size: 0.6em;
+    padding: 0.5em;
+    padding: 2em 1em 2em 1em;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
 
+header ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
 }
-header ul li a{
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-header ul li:hover a{
+
+header ul li:hover a {
     color: #2056ac;
 }
+
 header ul li:hover {
     border-radius: 5px 5px 0 0;
     background-color: #fff;
 }
-header, footer {
-  background-color: #2056ac;
+
+header,
+footer {
+    background-color: #2056ac;
 }
-header nav{
+
+header nav {
     padding-top: 2em;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
-     justify-content: center;
+    justify-content: center;
 }
-section.banner{
+
+section.banner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 12vh;
     padding-top: 2em;
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 4em 2em;
 }
-img{
+
+main>img {
     width: 100%;
     height: auto;
 }
-section.centre {
-  text-align: center;
-  color: rgba(0, 0, 0, 0.8);
-}
-.centre h2{
-  font-weight: bold;
-  font-size: 2em;
-  font-family: 'Questrial';
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-.centre{
-  padding: 3vw 7vw 3vw 7vw;
 
+section.centre {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.centre h2 {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Questrial';
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.centre {
+    padding: 3vw 7vw 3vw 7vw;
 }
 
 section.articles_principaux {
-  justify-content: space-around;
+    justify-content: space-around;
 }
-section.articles_principaux, section.articles_secondaires{
+
+section.articles_principaux,
+section.articles_secondaires {
     display: flex;
     flex-direction: column;
     color: rgba(0, 0, 0, 0.7);
 }
-section.articles_principaux article{
-  text-align: center;
-  width: 100%;
-}
-section.articles_principaux article h3{
-  font-size: 1.5em;
-  font-weight: bold;
-  padding: 1.5em;
+
+section.articles_principaux article {
+    text-align: center;
+    width: 100%;
 }
 
-section.articles_principaux article a{
-  display: inline-block;
-  padding: 1em 2em;
-  background-color: #64abd1;
-  color: #ffffff;
-  text-decoration: none;
-  margin: 2em;
+section.articles_principaux article h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1.5em;
+}
+
+section.articles_principaux article a {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #64abd1;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 2em;
 }
 
 section.articles_secondaires {
-  justify-content: space-around;
+    justify-content: space-around;
 }
 
-section.articles_secondaires article{
-  text-align: center;
-  width: 100%;
+section.articles_secondaires article {
+    text-align: center;
+    width: 100%;
 }
 
-section.articles_secondaires article h4{
-  font-size: 1.2em;
-  font-weight: bold;
-  padding: 1.5em;
+section.articles_secondaires article h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 1.5em;
 }
 
-section.articles_secondaires article a{
-  display: inline-block;
-  padding: 1em 2em;
-  background-color: #64abd1;
-  color: #ffffff;
-  text-decoration: none;
-  margin: 2em;
+section.articles_secondaires article a {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #64abd1;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 2em;
 }
 
 section.nav_bas {
-  background-color: #e3f0f7;
-  padding: 3em 0;
+    background-color: #e3f0f7;
+    padding: 3em 0;
 }
 
 section.nav_bas ul {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
-section.nav_bas li{
-  width: 100%;
-  text-align: center;
+section.nav_bas li {
+    width: 100%;
+    text-align: center;
 }
 
-section.nav_bas li i{
-  font-size: 3em;
-  color: gray;
-  padding: 1em;
+section.nav_bas li i {
+    font-size: 3em;
+    color: gray;
+    padding: 1em;
+}
+
+.poing1 {
+    width: 50%;
+    height: auto;
+    margin: auto;
 }
 
 footer {
-  text-align: center;
-  padding: 3em 0;
-  color: #fff;
+    text-align: center;
+    padding: 3em 0;
+    color: #fff;
 }
 
 footer nav ul {
-  padding: 1em 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-
 
 footer i {
-  font-size: 2.5em;
-  margin: 0.5em;
+    font-size: 2.5em;
+    margin: 0.5em;
 }
 
-footer nav ul li a i{
-  color: #fff;
+footer nav ul li a i {
+    color: #fff;
 }
 
 footer nav ul li a i:visited {
-  color: #fff;
+    color: #fff;
 }
-@media screen and(min-width: 700px) {
-    header ul{
+
+@media screen and (min-width: 700px) {
+    header nav ul {
         flex-direction: row;
     }
-
-    header ul li{
+    header ul li {
         font-size: 10px;
     }
-
+    section.nav_bas ul {
+        flex-direction: row;
+    }
 }
